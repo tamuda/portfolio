@@ -11,38 +11,53 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'WakeNShake',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'A landing page for an Alarm Clock reseller. Built with Next js',
+    link: {
+      href: 'https://wake-n-shake.vercel.app/',
+      label: 'wakenshake.vercel',
+    },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
+    name: 'Penpal',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+      'A platform that allows dropshippers to create AI Chatbots without writing code. Built with MERN stack',
+    link: {
+      href: 'https://penpalplayground.com',
+      label: 'penpalplayground.com',
+    },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
+    name: 'Sticky Bee',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+      'Game created using Java graphics. Mission is to dodge caterpillars while collecting lives.',
+    link: {
+      href: 'https://github.com/tamuda/StickyBee',
+      label: 'github.com/StickyBee',
+    },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
+    name: '3D Badge',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+      'A Rotatable 3D badge I built for Penpal. Utilized Three js and Next js',
+    link: {
+      href: 'https://3-d-badge-tamuda.vercel.app/',
+      label: '3d-badge.vercel',
+    },
     logo: logoCosmos,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Productivity Timer',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+      'A pomodoro style timer I built for iZone that allowed students to alternate between networking and break sessions. Built with React',
+    link: {
+      href: 'https://izone-timer.vercel.app/',
+      label: 'izone-timer.vercel',
+    },
     logo: logoOpenShuttle,
   },
 ]
@@ -62,15 +77,12 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
-        <meta
-          name="description"
-          content="Things I’ve made trying to put my dent in the universe."
-        />
+        <title>Projects - Tamuda</title>
+        <meta name="description" content="Projects I have worked on" />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="Projects I have worked on"
+        intro="I’ve worked on several little projects over the years but these are the ones that I’m most proud of. Let me know what you think or if you see something that can be improved."
       >
         <ul
           role="list"
