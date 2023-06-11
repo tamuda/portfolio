@@ -103,15 +103,15 @@ function Resume() {
       company: 'ZNotes',
       title: 'Graphics Designer',
       logo: logoZnotes,
-      start: '2011',
-      end: '2014',
+      start: 'Jun 2021',
+      end: 'Dec 2021',
     },
     {
       company: 'African Leadership Academy',
       title: 'IT Support',
       logo: logoALA,
-      start: '2008',
-      end: '2011',
+      start: 'Jan 2021',
+      end: 'Jul 2021',
     },
   ]
 
