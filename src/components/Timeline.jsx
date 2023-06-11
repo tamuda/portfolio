@@ -61,7 +61,7 @@ function Timeline() {
     {
       title: 'Started 3D Modelling',
       subtitle: 'Best Mechanical Designer 2016-18, Autodesk',
-      date: 'Jan 2017 - Dec 2018',
+      date: 'Jan 2016 - Dec 2018',
       description: 'Served as an IT Intern at African Leadership Academy...',
       backgroundColor: 'rgb(33, 150, 243)',
       iconColor: '#fff',
@@ -69,7 +69,7 @@ function Timeline() {
     {
       title: 'Built My First Robot',
       subtitle: 'Started coding in Python',
-      date: '2015',
+      date: '2014',
       description: 'Built my first robot and won the Innovator Award...',
       backgroundColor: 'rgb(33, 150, 243)',
       iconColor: '#fff',
