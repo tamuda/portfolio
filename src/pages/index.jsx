@@ -179,15 +179,14 @@ export default function Home({ articles }) {
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and tennis player.
+          <h1 className="text-5xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-8xl">
+            Welcome to my playgound.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Tamuda, a software engineer and entrepreneur studying Computer
-            Science at the University of Rochester. I’m the co-founder of
-            Penpal, a SaaS company building a no code tool for creating AI
-            Chatbots. I am currently looking for a Software Engineering
-            internship for fall 2023 and Summer 2024.
+            I’m Tamuda, a Computer Science student at the University of
+            Rochester. I’m the co-founder of Penpal, a SaaS company building a
+            no code tool for creating AI Chatbots. I am currently looking for a
+            Software Engineering internship for fall 2023 and Summer 2024.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
