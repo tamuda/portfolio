@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
+import { Skate } from '@/components/Skate'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
@@ -13,6 +14,8 @@ import {
   LinkedInIcon,
 } from '@/components/SocialIcons'
 import logoALA from '@/images/logos/ala.png'
+import logoPenpal from '@/images/logos/penpal.png'
+
 import logoZnotes from '@/images/logos/ZNotes_Logo.png'
 
 import logoRochester from '@/images/logos/rochester.png'
@@ -94,9 +97,9 @@ function Resume() {
     },
     {
       company: 'Penpal',
-      title: 'CEO, Frontend Developer',
-      logo: logoALA,
-      start: 'Nov 2022',
+      title: 'Frontend Developer',
+      logo: logoPenpal,
+      start: 'May 2023',
       end: 'Present',
     },
     {
@@ -177,17 +180,22 @@ export default function Home({ articles }) {
           internship for fall 2023 and Summer 2024."
         />
       </Head>
-      <Container className="mt-9">
-        <div className="max-w-2xl">
-          <h1 className="text-5xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-8xl">
-            Welcome to my playgound.
-          </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Tamuda, a Computer Science student at the University of
-            Rochester. I’m the co-founder of Penpal, a SaaS company building a
-            no code tool for creating AI Chatbots. I am currently looking for a
-            Software Engineering internship for fall 2023 and Summer 2024.
-          </p>
+      <Container className="">
+        <div className="">
+          <div className="flex h-screen w-full flex-row items-center">
+            <div className="flex w-1/2 flex-col">
+              <h1 className="w-1/2 text-5xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-8xl">
+                Welcome to my playgound.
+              </h1>
+              <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                I’m Tamuda, a Computer Science student at the University of
+                Rochester. I am currently looking for a Software Engineering
+                internship for fall 2023 and Summer 2024.
+              </p>
+            </div>
+            <Skate className="w-1/2" />
+          </div>
+
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://instagram.com/tamu.da"
