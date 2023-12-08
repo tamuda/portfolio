@@ -14,7 +14,7 @@ export function Skate() {
   return (
     <div
       className="
-    flex h-full w-full items-start justify-start"
+    flex  h-full w-full items-start justify-start md:block"
     >
       <RiveComponent onMouseEnter={() => rive && rive.play()} />
     </div>

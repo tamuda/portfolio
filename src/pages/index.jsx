@@ -182,9 +182,9 @@ export default function Home({ articles }) {
       </Head>
       <Container className="">
         <div className="">
-          <div className="flex h-screen w-full flex-row items-center">
-            <div className="flex w-1/2 flex-col">
-              <h1 className="w-1/2 text-5xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-8xl">
+          <div className="flex  h-screen w-full flex-col items-center md:flex-row">
+            <div className="flex w-full flex-col md:w-1/2 ">
+              <h1 className="w-full text-5xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-8xl md:w-1/2">
                 Welcome to my playgound.
               </h1>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
@@ -193,7 +193,7 @@ export default function Home({ articles }) {
                 internship for fall 2023 and Summer 2024.
               </p>
             </div>
-            <Skate className="w-1/2" />
+            <Skate className="w-100 order-1 flex sm:hidden md:block md:w-1/2" />
           </div>
 
           <div className="mt-6 flex gap-6">
